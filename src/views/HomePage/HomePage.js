@@ -1,3 +1,9 @@
+import FormComponent from '@/components/FormComponent/FormComponent.vue'
+import GalleryComponent from '@/components/GalleryComponent/GalleryComponent.vue'
+import CommentComponent from '@/components/CommentComponent/CommentComponent.vue'
+import AnswerComponent from '@/components/AnswerComponent/AnswerComponent.vue'
+import FooterTopComponent from '@/components/FooterTopComponent/FooterTopComponent.vue'
+
 export default {
     name: 'HomePage',
     data () {
@@ -29,5 +35,10 @@ export default {
       }
     },
     components: {
+      FormComponent,
+      GalleryComponent,
+      CommentComponent,
+      AnswerComponent,
+      FooterTopComponent
     },
   }

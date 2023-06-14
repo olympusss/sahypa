@@ -98,7 +98,11 @@
         </v-col>
       </v-row>
     </v-container>
-
+    <FormComponent />
+    <GalleryComponent />
+    <CommentComponent />
+    <AnswerComponent />
+    <FooterTopComponent />
   </v-app>
 </template>
 

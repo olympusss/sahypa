@@ -226,4 +226,8 @@ export default {
     height: 794px;
   }
 }
+
+::v-deep .v-application--wrap {
+  min-height: 0;
+}
 </style>
