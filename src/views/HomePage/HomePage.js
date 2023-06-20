@@ -3,6 +3,7 @@ import GalleryComponent from '@/components/GalleryComponent/GalleryComponent.vue
 import CommentComponent from '@/components/CommentComponent/CommentComponent.vue'
 import AnswerComponent from '@/components/AnswerComponent/AnswerComponent.vue'
 import FooterTopComponent from '@/components/FooterTopComponent/FooterTopComponent.vue'
+import FooterBottomComponent from '@/components/FooterBottomComponent/FooterBottomComponent.vue'
 
 export default {
     name: 'HomePage',
@@ -39,6 +40,7 @@ export default {
       GalleryComponent,
       CommentComponent,
       AnswerComponent,
-      FooterTopComponent
+      FooterTopComponent,
+      FooterBottomComponent
     },
   }

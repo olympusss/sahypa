@@ -5,22 +5,24 @@
       temporary
       v-model="drawer"
       right
-      >
-      <v-list dense>
+      color="#F2D140"
+    >
+      <v-list dense flat>
         <v-list-item-group>
           <v-list-item
             color="primary"
             v-for="link in links"
             :key="link.title"
-            :to="link.url"
+            class="nav-item-style"
+            :ripple="false"
           >
-            <v-list-item-title>{{ link.title }}</v-list-item-title>
+            <v-list-item-title >{{ link.title }}</v-list-item-title>
           </v-list-item>
         </v-list-item-group>
       </v-list>
     </v-navigation-drawer>
     
-      <v-app-bar color="#F2D140" height="105" elevation="0" style="position: fixed; z-index: 100;">
+      <v-app-bar color="#F2D140" height="105" elevation="0">
         <v-container class="d-flex align-center">
           <router-link to="/">
             <v-img src="@/assets/logo.svg" height="45" width="155"/>
@@ -230,4 +232,11 @@ export default {
 ::v-deep .v-application--wrap {
   min-height: 0;
 }
+
+.nav-item-style {
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: 700
+}
+
 </style>

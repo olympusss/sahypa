@@ -32,3 +32,19 @@
     outline: none;
     font-weight: 700;
 }
+
+@media screen and (max-width: 600px){
+    .left-div {
+        padding: 50px;
+    }
+
+    .left-text {
+        font-size: 30px;
+        line-height: 30px;
+        font-weight: 700;
+    }
+
+    .right-div {
+        padding: 0px 50px 50px 50px;
+    }
+}

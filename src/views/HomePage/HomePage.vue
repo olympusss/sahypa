@@ -103,6 +103,7 @@
     <CommentComponent />
     <AnswerComponent />
     <FooterTopComponent />
+    <FooterBottomComponent />
   </v-app>
 </template>
 
